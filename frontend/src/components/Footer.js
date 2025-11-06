@@ -39,8 +39,8 @@ export default function Footer(){
           </div>
           <div>
             <h4 className="text-white font-semibold mb-3">GET IN TOUCH</h4>
-            <div className="text-gray-300 text-sm">+94 765489545</div>
-            <div className="text-gray-300 text-sm mt-2">dulanjalisenarathna93@gmail.com</div>
+            <div className="text-gray-300 text-sm">+91 8379980265</div>
+            <div className="text-gray-300 text-sm mt-2">virbhadrakhobare111@gmail.com</div>
           </div>
         </div>
       </div>
