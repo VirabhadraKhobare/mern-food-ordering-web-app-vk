@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="720" viewBox="0 0 360 720">
+  <rect width="360" height="720" rx="28" fill="#F0FDF4"/>
+  <g transform="translate(28,40)">
+    <rect width="304" height="120" rx="12" fill="#fff"/>
+    <text x="16" y="40" font-family="Arial" font-size="18" font-weight="700" fill="#064E3B">Your Rewards</text>
+    <text x="16" y="70" font-size="13" fill="#065F46">Earn points with every order</text>
+  </g>
+  <g transform="translate(28,180)">
+    <rect width="304" height="420" rx="12" fill="#fff"/>
+    <text x="16" y="40" font-family="Arial" font-size="16" fill="#111827">Saved cards & addresses</text>
+  </g>
+</svg>

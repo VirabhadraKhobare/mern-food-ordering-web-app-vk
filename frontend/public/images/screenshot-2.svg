@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="720" viewBox="0 0 360 720">
+  <rect width="360" height="720" rx="28" fill="#EFF6FF"/>
+  <rect x="20" y="36" width="320" height="116" rx="12" fill="#fff"/>
+  <g transform="translate(36,64)" font-family="Arial">
+    <text x="0" y="30" font-size="20" font-weight="700" fill="#1E293B">Discover</text>
+    <text x="0" y="58" font-size="13" fill="#475569">Trending dishes near you</text>
+  </g>
+  <g transform="translate(36,150)">
+    <rect width="288" height="80" rx="12" fill="#fff"/>
+    <text x="16" y="48" font-family="Arial" font-size="16" fill="#111827">Masala Dosa — 20% off</text>
+  </g>
+  <g transform="translate(36,246)">
+    <rect width="288" height="80" rx="12" fill="#fff"/>
+    <text x="16" y="48" font-family="Arial" font-size="16" fill="#111827">Paneer Wrap — New</text>
+  </g>
+</svg>

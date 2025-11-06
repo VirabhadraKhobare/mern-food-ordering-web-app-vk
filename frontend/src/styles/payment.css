@@ -1,0 +1,4 @@
+.payment-form input{ width:100%; padding:10px 12px; border:1px solid #e5e7eb; border-radius:6px }
+.btn-pay{ display:inline-block; background:#111827; color:#fff; padding:10px 14px; border-radius:6px; font-weight:700 }
+.payment-form label{ font-size:13px }
+@media (max-width:640px){ .payment-form input{ padding:8px } }

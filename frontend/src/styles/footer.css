@@ -1,0 +1,9 @@
+.footer-dark{ background:#2b2b2b; }
+.footer-dark a{ color:inherit }
+.footer-dark .social{ display:inline-flex; align-items:center; justify-content:center; width:36px; height:36px; background:transparent; border-radius:9999px; color:#fff; border:1px solid rgba(255,255,255,0.12); }
+.footer-dark .social:hover{ background:rgba(255,255,255,0.04) }
+.app-badge img{ display:inline-block; height:40px }
+
+@media (max-width:640px){
+  .footer-dark .max-w-6xl{ padding-left:16px; padding-right:16px }
+}

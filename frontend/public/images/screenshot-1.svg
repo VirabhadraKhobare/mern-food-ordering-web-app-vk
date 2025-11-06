@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="720" viewBox="0 0 360 720">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#FFF7ED"/>
+      <stop offset="1" stop-color="#FFF1E6"/>
+    </linearGradient>
+  </defs>
+  <rect width="360" height="720" rx="28" fill="url(#g)" stroke="#F97316" stroke-opacity="0.06"/>
+  <rect x="18" y="28" width="324" height="80" rx="12" fill="#fff"/>
+  <rect x="18" y="120" width="324" height="420" rx="16" fill="#fff"/>
+  <g transform="translate(36,140)" fill="#111827" font-family="Arial">
+    <text x="0" y="28" font-size="18" font-weight="700">Tomato — Orders</text>
+    <text x="0" y="58" font-size="13" fill="#6B7280">Your recent orders and delivery ETA</text>
+  </g>
+  <g transform="translate(36,220)">
+    <rect width="288" height="72" rx="10" fill="#FEF3C7"/>
+    <text x="16" y="46" font-family="Arial" font-size="16" fill="#92400E">Margherita — 1 item</text>
+  </g>
+  <g transform="translate(36,306)">
+    <rect width="288" height="72" rx="10" fill="#ECFEFF"/>
+    <text x="16" y="46" font-family="Arial" font-size="16" fill="#065F46">Caesar Salad — 2 items</text>
+  </g>
+  <g transform="translate(36,392)">
+    <rect width="288" height="72" rx="10" fill="#FEE2E2"/>
+    <text x="16" y="46" font-family="Arial" font-size="16" fill="#7F1D1D">Butter Chicken — 1 item</text>
+  </g>
+</svg>

@@ -1,0 +1,73 @@
+.category-ring{
+  display:inline-block;
+  border-radius:9999px;
+  padding:6px; /* outer spacing to create ring */
+  background: linear-gradient(135deg,#ffffff 0%, #f8fafc 100%);
+  box-shadow: 0 6px 18px rgba(15,23,42,0.06);
+}
+
+.category-ring > div{ /* the inner circular image container */
+  border-radius:9999px;
+  overflow:hidden;
+}
+
+.dish-image-wrap{ position:relative; }
+.dish-image{ display:block; width:100%; height:100%; object-fit:cover; }
+
+.badge-popular{
+  position:absolute;
+  left:12px;
+  top:12px;
+  background:linear-gradient(90deg,#ff7a59,#ff4757);
+  color:white;
+  padding:6px 10px;
+  border-radius:999px;
+  font-size:12px;
+  font-weight:700;
+  box-shadow:0 6px 18px rgba(255,71,87,0.18);
+}
+
+.price-pill{
+  position:absolute;
+  right:12px;
+  bottom:12px;
+  background:rgba(0,0,0,0.6);
+  color:#fff;
+  padding:6px 10px;
+  border-radius:999px;
+  font-weight:700;
+  font-size:13px;
+}
+
+/* plus button on image */
+.plus-btn{
+  position:absolute;
+  right:12px;
+  top:12px;
+  width:36px;
+  height:36px;
+  border-radius:50%;
+  background:rgba(255,255,255,0.95);
+  color:#111827;
+  border: none;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:700;
+  box-shadow:0 6px 18px rgba(2,6,23,0.08);
+}
+
+/* card price style */
+.block .text-red-500{ color:#ff4d4f; }
+
+/* small star style */
+.star{ color:#f6ad55 }
+
+/* subtle rounded image corners for the dish cards */
+.block .dish-image{ border-bottom-left-radius:0; border-bottom-right-radius:0; }
+
+@media (max-width:640px){
+  .category-ring{ padding:4px }
+  .badge-popular{ font-size:11px; padding:5px 8px }
+  .price-pill{ font-size:12px; padding:5px 8px }
+}

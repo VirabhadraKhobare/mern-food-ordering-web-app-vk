@@ -1,0 +1,14 @@
+{
+  "name": "mern-food-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm:dev:backend\" \"npm:dev:frontend:wait\"",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend:wait": "wait-on http://localhost:5000 && npm --prefix frontend start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1",
+    "wait-on": "^7.0.3"
+  }
+}
